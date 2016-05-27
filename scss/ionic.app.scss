@@ -1,0 +1,74 @@
+/*
+To customize the look and feel of Ionic, you can override the variables
+in ionic's _variables.scss file.
+
+For example, you might change some of the default colors:
+
+$light:                           #fff !default;
+$stable:                          #f8f8f8 !default;
+$positive:                        #387ef5 !default;
+$calm:                            #11c1f3 !default;
+$balanced:                        #33cd5f !default;
+$energized:                       #ffc900 !default;
+$assertive:                       #ef473a !default;
+$royal:                           #886aea !default;
+$dark:                            #444 !default;
+*/
+
+// The path for our ionicons font files, relative to the built CSS in www/css
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+
+// Include all of Ionic
+@import "www/lib/ionic/scss/ionic";
+
+
+.header {
+    padding-top:30px;
+}
+.header {
+    img {
+        width:70%;
+    }
+}
+
+.toolbox {
+    height:100px;
+    background: url(../img/toolbox.png) center center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+
+
+// .cards {
+//     margin-top:60px;
+// }
+
+.scroll-content {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+68,a7cae5+100 */
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffffff 68%, #a7cae5 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #ffffff 68%,#a7cae5 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #ffffff 68%,#a7cae5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#a7cae5',GradientType=0 ); /* IE6-9 */
+
+}
+
+.icon-elect i {
+    color:#F7CA18;
+}
+.icon-plumber i {
+    color:#1BBC9B;
+}
+.icon-glass i {
+    color:#22A7F0;
+}
+
+.badge-elect {
+    background:#F7CA18!important;
+}
+.badge-plumber {
+    background:#1BBC9B!important;
+}
+.badge-glass {
+    background:#22A7F0!important;
+}
